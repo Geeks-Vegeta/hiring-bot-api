@@ -1,0 +1,32 @@
+{
+  "name": "NodeJs-Hiringbot-Api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirpi-io/NodeJs-Hiringbot-Api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirpi-io/NodeJs-Hiringbot-Api/issues"
+  },
+  "homepage": "https://github.com/sirpi-io/NodeJs-Hiringbot-Api#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1026.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.5.5",
+    "nodemon": "^2.0.15",
+    "tinyurl": "^1.1.7"
+  }
+}
