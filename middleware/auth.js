@@ -3,7 +3,7 @@
 
 const requiredAuth=(req, res, next)=>{
 
-    const auth = req.cookies.Authorization;
+    const auth = req.headers['Authorization'];
     try {
         if(!auth) return res.json({"message":"UnAuthorised User"}).status(401);
         next();
