@@ -3,7 +3,7 @@
 
 const requiredAuth=(req, res, next)=>{
 
-    const auth = req.headers['Authorization'];
+    const auth = req.headers['authorization'];
     try {
         if(!auth) return res.json({"message":"UnAuthorised User"}).status(401);
         next();
